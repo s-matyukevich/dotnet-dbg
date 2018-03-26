@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1-sdk 
+FROM microsoft/aspnetcore 
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y unzip
 
