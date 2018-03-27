@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore 
+FROM microsoft/aspnetcore-build 
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y unzip procps
 
